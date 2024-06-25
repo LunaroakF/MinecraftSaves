@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Loading...</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<style type="text/css">
+body {
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background: url("img/1618395028.blooming_lynx_1618391481.jpg");
+    background-position:top center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+</style>
+<body>
+	
+<div class="bg">
+   <div class="drag"><br><br><br><br><br><br><br><br>为了您的最佳体验<br>我们正在检测您使用的设备...<br>稍后为您自动跳转最佳的体验界面<br>若长时间无响应请刷新界面</div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    var system ={};  
+       var p = navigator.platform;       
+       system.win = p.indexOf("Win") == 0;  
+       system.mac = p.indexOf("Mac") == 0;  
+       system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+       if(system.win||system.mac||system.xll){//如果是电脑跳转到
+               
+	       window.location.href="Desktop.html"; 
+       }else{  //如果是手机,跳转到
+              
+	      window.location.href="Mobile.html"; 
+       }
+</script>
